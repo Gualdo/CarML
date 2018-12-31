@@ -14,6 +14,8 @@
 		4539BF0321C17507006D6682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4539BF0121C17507006D6682 /* LaunchScreen.storyboard */; };
 		4539BF0E21C17507006D6682 /* CarMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539BF0D21C17507006D6682 /* CarMLTests.swift */; };
 		4539BF1921C17507006D6682 /* CarMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539BF1821C17507006D6682 /* CarMLUITests.swift */; };
+		453EB5D521DA635300313543 /* Cars.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 453EB5D421DA634800313543 /* Cars.mlmodel */; };
+		45D6A7EC21C273CF000AFA0F /* cars in Resources */ = {isa = PBXBuildFile; fileRef = 45D6A7EB21C273CF000AFA0F /* cars */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4539BF1421C17507006D6682 /* CarMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4539BF1821C17507006D6682 /* CarMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMLUITests.swift; sourceTree = "<group>"; };
 		4539BF1A21C17507006D6682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		453EB5D421DA634800313543 /* Cars.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Cars.mlmodel; sourceTree = "<group>"; };
+		45D6A7EB21C273CF000AFA0F /* cars */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cars; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		4539BEF721C17505006D6682 /* CarML */ = {
 			isa = PBXGroup;
 			children = (
+				45D6A7EA21C273BF000AFA0F /* Resourses */,
 				4539BEF821C17505006D6682 /* AppDelegate.swift */,
 				4539BEFA21C17505006D6682 /* ViewController.swift */,
 				4539BEFC21C17505006D6682 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				4539BF1A21C17507006D6682 /* Info.plist */,
 			);
 			path = CarMLUITests;
+			sourceTree = "<group>";
+		};
+		45D6A7EA21C273BF000AFA0F /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				453EB5D421DA634800313543 /* Cars.mlmodel */,
+				45D6A7EB21C273CF000AFA0F /* cars */,
+			);
+			path = Resourses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4539BF0321C17507006D6682 /* LaunchScreen.storyboard in Resources */,
+				45D6A7EC21C273CF000AFA0F /* cars in Resources */,
 				4539BF0021C17507006D6682 /* Assets.xcassets in Resources */,
 				4539BEFE21C17505006D6682 /* Main.storyboard in Resources */,
 			);
@@ -258,6 +273,7 @@
 			files = (
 				4539BEFB21C17505006D6682 /* ViewController.swift in Sources */,
 				4539BEF921C17505006D6682 /* AppDelegate.swift in Sources */,
+				453EB5D521DA635300313543 /* Cars.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
